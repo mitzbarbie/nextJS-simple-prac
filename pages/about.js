@@ -1,3 +1,3 @@
 export default function About() {
-  return "about test";
+  return "about test lalalal seriously this is awsome";
 }
