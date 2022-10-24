@@ -5,6 +5,7 @@ import styles from './NavBar.module.css'
 export default function NavBar() {
     const router = useRouter();
     console.log(router)
+    // method 1 and 2 to make styles
     return <nav>
         <Link href='/'>
             <a className={`${styles.Link}, ${router.pathname === '/' ? styles.active : ""}`}>Home</a>
