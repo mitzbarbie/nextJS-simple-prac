@@ -6,6 +6,13 @@ export default function Home() {
     <div>
       <NavBar/>
       <h1>hallo This is Home!!!!!!! ahahahah</h1>
+      <a>test</a>
+      <style jsx>{`
+        a {
+          color : purple;
+          background-color : skyblue;
+        }
+      `}</style>
     </div>
   );
 }
