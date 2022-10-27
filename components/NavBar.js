@@ -6,7 +6,7 @@ export default function NavBar() {
   console.log(router);
   return (
     <nav>
-      <img src="/vercel.svg"/>
+      <img src="/vercel.svg" />
       <div>
         <Link href="/">
           <a className={router.pathname === "/" ? "active" : ""}>Home</a>
@@ -37,7 +37,7 @@ export default function NavBar() {
         .active {
           color: purple;
         }
-        .nav div {
+        nav div {
           display: flex;
           gap: 10px;
         }
